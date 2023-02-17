@@ -17,6 +17,7 @@ func NewRoutes() routes {
 	r.addIndex(root)
 	r.addAbout(root)
 	r.addPing(root)
+	r.addConvert(root)
 
 	return r
 }

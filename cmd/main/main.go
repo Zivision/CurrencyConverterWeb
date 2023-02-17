@@ -1,9 +1,5 @@
 package main
 
-import (
-	"github.com/Zivision/CurrencyConverterWeb/pkg/routes"
-)
+import "github.com/Zivision/CurrencyConverterWeb/pkg/routes"
 
-func main() {
-	routes.NewRoutes().Run()
-}
+func main() { routes.NewRoutes().Run() }

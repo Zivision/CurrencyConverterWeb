@@ -13,6 +13,6 @@ func (r routes) addAbout(rg *gin.RouterGroup) {
 
 func aboutMainEndpoint(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
-		"Message": "Nothing Here Yet",
+		"Title": "about page",
 	})
 } 
